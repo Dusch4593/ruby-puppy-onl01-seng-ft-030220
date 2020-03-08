@@ -29,3 +29,4 @@ end
 dog1 = Dog.new("Shadow")
 dog2 = Dog.new("Sleepy")
 dog3 = Dog.new("Max")
+binding.pry
