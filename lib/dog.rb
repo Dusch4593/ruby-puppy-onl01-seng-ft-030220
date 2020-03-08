@@ -1,3 +1,5 @@
+require 'pry'
+
 # Add your code here
 class Dog  
   @@all = [] 
@@ -15,6 +17,7 @@ class Dog
   
   def self.print_all 
     @@all.each {|name|
+      binding.pry
       puts "#{name}"
     }
   end
