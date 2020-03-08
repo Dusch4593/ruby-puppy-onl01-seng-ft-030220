@@ -18,4 +18,7 @@ class Dog
       puts "#{name}"
     }
   end
+  
+  def clear_all 
+  end
 end
