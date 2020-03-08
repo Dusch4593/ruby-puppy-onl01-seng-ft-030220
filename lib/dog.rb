@@ -26,3 +26,4 @@ class Dog
 end
 
 dog = Dog.new("Shadow")
+binding.pry
