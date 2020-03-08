@@ -17,7 +17,6 @@ class Dog
   
   def self.print_all 
     @@all.each {|name|
-      binding.pry
       puts "#{name}"
     }
   end
@@ -25,3 +24,5 @@ class Dog
   def clear_all 
   end
 end
+
+dog = Dog.new("Shadow")
